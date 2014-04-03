@@ -1,0 +1,9 @@
+Building Eurocoin
+
+See doc/readme-qt.rst for instructions on building Eurocoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Eurocoin.
+
+See doc/build-*.txt for instructions on building eurocoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Eurocoin.

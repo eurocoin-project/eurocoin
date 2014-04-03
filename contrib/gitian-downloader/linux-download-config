@@ -1,0 +1,14 @@
+--- 
+name: eurocoin
+urls:
+- http://europroject.co/
+rss:
+- url: http://sourceforge.net/api/file/index/project-name/eurocoin/mtime/desc/limit/100/rss
+  xpath: //item/link/text()
+  pattern: eurocoin-\d+.\d+.\d+-linux-gitian.zip
+signers:
+  0000000000000000000000000000000000000000:
+    weight: 40
+    name: kimoto
+    key: kimoto
+minimum_weight: 120
